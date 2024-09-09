@@ -1,0 +1,181 @@
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #333;
+    text-align: left; 
+    max-width: 1270px;
+    
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #fffc00;  
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.521), hsla(59, 100%, 50%, 0.411)), url(../img/background.jpg);  
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.521), hsla(59, 100%, 50%, 0.411)), url(../img/background.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+header .txt-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.txt-header h1 {
+    font-size: 50px;
+    color: hsl(0, 0%, 0%);
+}
+
+.txt-header h2 {
+    font-size: 25px;
+    color: hsl(0, 0%, 0%);
+}
+
+nav {
+    text-align: right;
+    padding: 2% 50px 0 0;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav > a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: non;
+    margin-right: 10px;
+    
+}
+
+/*Inicio Imagen Logo*/
+
+nav > img {
+    float: left;
+    margin-left: 10px;
+}
+
+.imagen {
+    height: 7%;
+    width: 7%;
+}
+
+/*Fin Imagen Logo*/
+
+.ola {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 95% auto;
+}
+
+/*inicio contenido*/
+
+.redondo{
+    border-radius: 20%;
+    width: 300px;
+    height: 300px;
+}
+
+.top-side{
+    width: 100%;
+    overflow: auto;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.top-side > div{
+    width: 33%;
+    float: left;
+}
+
+.bottom-side{
+    width: 100%;
+    overflow: auto;
+    margin-right: 0%;
+    margin-left: 0%;  
+}
+
+.bottom-side > div{
+    width: 33%;
+    float: left;
+}
+
+/*fin contenido*/
+
+/*inicio footer*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    flex: 1;
+    padding: 10px 20px;
+    min-width: 250px;
+}
+
+footer .footer-section h3 {
+    margin-top: 0;
+}
+
+footer .footer-section p, 
+footer .footer-section a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer .footer-section a:hover {
+    color: white;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: white;
+}
+
+footer .footer-bottom {
+    padding: 10px 0;
+    background-color: #222;
+}
+/*fin footer*/
